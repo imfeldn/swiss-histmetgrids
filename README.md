@@ -4,13 +4,13 @@ Daily maximum temperature, daily minimum temperature, relative sunshine duration
 
 The reconstruction is based on the analogue resampling method and data assimilation.
 
-The code is organized in two folders:
+The code is organized in three code folders:
 
-Folder #1 recon_txtnsd
-This folder contains all the scripts needed to reconstruct and evaluate maximum and minimum temperature, and relative sunshine duration.
+Folder #1 code_txtnsd: This folder contains all the scripts needed to reconstruct and evaluate maximum and minimum temperature, and relative sunshine duration.
 
-Folder #2 recon_wsrh
-This folder contains all the scripts needed to reconstruct and evaluate uv-wind compenents and relative humidity. 
+Folder #2 code_wsrh: This folder contains all the scripts needed to reconstruct and evaluate uv-wind compenents and relative humidity. 
+
+Folder #3 code_fwi: For the calculation of the Canadian Forest Fire Weather Index.
 
 Sample data is provided, but for running the full code, you rely on downloading it from the respective sources. 
 
