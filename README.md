@@ -6,8 +6,11 @@ The reconstruction is based on the analogue resampling method and data assimilat
 The code is organized in two folders:
 Folder #1 recon_txtnsd
 This folder contains all the scripts needed to reconstruct and evaluate maximum and minimum temperature, and relative sunshine duration.
+
 Folder #2 recon_wsrh
 This folder contains all the scripts needed to reconstruct and evaluate uv-wind compenents and relative humidity. 
+
+Sample data is provided, but for running the full code, you rely on downloading it from the respective sources. 
 
 References:
 Imfeld N., Brönnimann S.: A daily gridded high-resolution meteorological data set for historical impact studies in Switzerland since 1763, EGUsphere (in review), 2025.
