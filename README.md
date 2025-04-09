@@ -1,9 +1,11 @@
 # swiss-histmetgrids
 This repository contains the code for creating daily high-resolution (1x1 km) historical grids for Switzerland from 1763 to 2020 for the following variables:
-Daily maximum temperature, daily minimum temperature, relative sunshine duration, daily mean and minimum relative humidity, uv-wind at 10m
+Daily maximum temperature, daily minimum temperature, relative sunshine duration, daily mean and minimum relative humidity, uv-wind at 10m.
+
 The reconstruction is based on the analogue resampling method and data assimilation.
 
 The code is organized in two folders:
+
 Folder #1 recon_txtnsd
 This folder contains all the scripts needed to reconstruct and evaluate maximum and minimum temperature, and relative sunshine duration.
 
