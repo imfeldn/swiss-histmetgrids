@@ -18,7 +18,7 @@ histyear <- c(1763:2020)
 
 aggmean <- function(x,time) {aggregate(x, list(month(time)), mean)$x}
 
-print("read ekf")
+print("read modERA")
 
 modE_zonmean <- list()
 thelp <- paste0(rep(1421:2009, each = 12),"-",pad2(1:12,2), "-15")
