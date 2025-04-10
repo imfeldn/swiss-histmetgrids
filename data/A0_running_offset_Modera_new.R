@@ -1,4 +1,5 @@
 #### calculate the running mean difference for modera between the past and the present
+## this file calculate the running mean difference and writes it to a file that is later read in the pre-processing before calculating the analogues.
 
 rm(list=ls())
 
@@ -8,8 +9,8 @@ require(ncdf4)
 
 source('000_helpfun.R')
 
-path <- "data/mode-ra/swiss_cell_ModE-RA_ensmean_temp2_abs_1420-2009.nc"
-outdir <- "data/tabs/"
+path <- "data/swiss_cell_ModE-RA_ensmean_temp2_abs_1420-2009.nc"
+outdir <- "data"
 
 refyear <- c(1978,2008)
 refyear2 <- c(1971,2008)
