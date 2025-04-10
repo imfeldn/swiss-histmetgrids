@@ -9,9 +9,7 @@ This repository contains code to generate daily high-resolution (1x1 km) histori
 
     UV wind at 10m
 
-The reconstruction uses the analogue resampling method combined with data assimilation. Sample data is included in the data/ folder. To run the full code, external datasets must be downloaded as specified in the references.
-
-An example of computed analogue days is provided in the output/ folder, which can be used with the included script to perform data assimilation.
+The reconstruction uses the analogue resampling method combined with data assimilation. Sample data is included in the data/ folder. To run the full code, external datasets must be downloaded as specified in the references. An example of computed analogue days is provided in the output/ folder, which can be used with the included script to perform the data assimilation.
 
 The code is organized in three folders:
 
