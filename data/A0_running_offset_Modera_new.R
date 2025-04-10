@@ -1,6 +1,6 @@
-#### calculate the running mean difference for modera between the past and the present
+#### calculate the running mean difference for modera between the past and the present ####
 ## this file calculate the running mean difference and writes it to a file that is later read in the pre-processing before calculating the analogues.
-
+## ModERA can be downloaded here: https://www.wdc-climate.de/ui/project?acronym=ModE and plotted here http://climeapp-modera.unibe.ch:3838/
 rm(list=ls())
 
 require(PCICt)
